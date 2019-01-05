@@ -15,5 +15,5 @@ class Shoe
   end
 
   BRANDS << brand
-
+end
 end
