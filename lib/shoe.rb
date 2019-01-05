@@ -4,7 +4,7 @@ class Shoe
   attr_reader
 
   BRANDS = []
-  
+
   def initialize(brand)
     @brand = brand
     BRANDS << brand
