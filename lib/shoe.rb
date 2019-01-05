@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if @brand.any? do { |brand| BRANDS << @brand }
+    if @brand.any? { |brand| BRANDS << @brand }
   end
 
   def cobble
